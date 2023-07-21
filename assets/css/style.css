@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Nunito+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+:root {
+    /* **********COLORS********** */
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --info-color: #0dcaf0;
+    --dark-color: #4f4f4f;
+    /* **********COLORS********** */
+
+    /* **********FONTS********** */
+    --font-primary: 'Lato', sans-serif;
+    --font-secondary: 'Nunito Sans', sans-serif;
+    /* **********FONTS********** */
+
+    --transition-anim: .3s all ease-in-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--dark-color);
+    font-family: var(--font-secondary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: var(--font-primary);
+}
+
+.bg_primary {
+    background-color: var(--primary-color);
+}
+
+.text_primary {
+    color: var(--primary-color);
+}
+
+.bg_secondary {
+    background-color: var(--secondary-color);
+}
+
+.text_secondary {
+    color: var(--secondary-color);
+}
+
+.bg_info {
+    background-color: var(--info-color);
+}
+
+.text_info {
+    color: var(--info-color);
+}
